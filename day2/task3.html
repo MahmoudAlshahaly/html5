@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<img  id="imge" src="sad.png" alt="" width="200">
+<script>
+          document.getElementById("imge").onmousedown=function(){
+            this.setAttribute("src", "smiley.png");
+            this.width="500";
+      }
+
+      document.getElementById("imge").onmouseup=function(){
+            this.setAttribute("src", "sad.png");
+            this.width="200";
+      }
+
+</script>
+</body>
+</html>

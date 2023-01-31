@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg width="100" height="100">
+        <circle id="circle" cx="50" cy="50" r="40" stroke="green" stroke-width="4" />
+    </svg>
+    <script>
+      document.getElementById("circle").onmouseover=function(){
+        this.style.fill="blue";
+        this.style.stroke="gray";
+      }
+      document.getElementById("circle").onmousedown =function(){
+        this.style.fill="green";
+        this.style.stroke="black";
+      }
+      document.getElementById("circle").onmouseup =function(){
+        this.style.fill="red";
+        this.style.stroke="yellow";
+        alert("hello svg");
+      }
+    </script>
+</body>
+</html>

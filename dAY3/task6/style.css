@@ -1,0 +1,22 @@
+.image2 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    position: relative;
+    animation: lionmove 4s ease-in infinite ;
+}
+
+@keyframes lionmove {
+    from {
+        width: 80px;
+        height: 80px;
+        transform: rotate(0deg); 
+        left: 0px;
+    }
+    to {
+        width: 250px;
+        height: 180px;
+        transform: rotate(360deg);
+        left: 600px;
+    }
+}

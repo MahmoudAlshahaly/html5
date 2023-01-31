@@ -1,0 +1,13 @@
+.image img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 0;
+    transform: rotatey(0deg);
+    transition: left 25s ;
+}
+
+.image img:hover{
+    transform:rotatey(180deg);
+    left: 1200px;
+}

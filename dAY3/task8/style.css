@@ -1,0 +1,24 @@
+.image img{
+    width: 200px;
+    height: 150;
+    position: relative;
+    left: 0;
+    transform: rotatey(0deg);
+    animation: tiger 15s  100ms infinite ;
+  
+}
+
+
+@keyframes tiger {
+    0% {
+        left: 0;
+        transform: rotatey(180deg);
+
+    }
+    50% {
+        left: 1500px;  
+    }
+   
+
+   
+}
